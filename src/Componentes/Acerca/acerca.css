@@ -1,0 +1,48 @@
+:root{
+    --padding-container: 100px 0;
+   --color-tittle: #001a49;
+   }
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+.acerca{
+    text-align: center;
+   
+}
+.subtitle{
+    color: var(--color-tittle);
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+.subtitle1{
+    color: var(--color-tittle);
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+.acerca_parrafo{
+    line-height: 1.7;
+}
+.acerca_iconos{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.acerca_main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px,auto));
+}
+.acerca_icono{
+    width: 50px;
+}

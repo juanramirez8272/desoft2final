@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./acerca.css";
 function AboutUs() {
   return (
     <section id='about_us' className="container acerca">

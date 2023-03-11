@@ -5,16 +5,16 @@ import Noticias from './Componentes/Noticias/noticias';
 import Social from './Componentes/Social/social';
 import Products from './Componentes/Productos/productos';
 import AboutUs from './Componentes/Acerca/acerca';
+import Contact from './Componentes/Contacto/Contacto';
+import Header from './Componentes/Hero/hero';
 
 function App() {
   return (
     <div className="page-container">
-      <div className="content-wrap">
-        <h1>CONTENT FOR FOOTER</h1>
-
-      </div>
+      <Header />
       <AboutUs />
       <Products />
+      <Contact />
       <Social />
       <Noticias />
       <Footer />
