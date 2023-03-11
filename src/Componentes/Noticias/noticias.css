@@ -1,3 +1,8 @@
+
+:root{
+    --padding-container: 100px 0;
+   --color-tittle: #001a49;
+   }
 .container{
     width: 90%;
     max-width: 1200px;
