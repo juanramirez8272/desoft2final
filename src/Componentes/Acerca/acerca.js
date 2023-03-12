@@ -7,7 +7,7 @@ function AboutUs() {
       <p className="acerca_parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus accusamus sit dicta, recusandae accusantium incidunt, neque aliquid perferendis atque temporibus eum ab eos ipsum odit doloribus quae earum. Porro?</p>
       <div className="acerca_main">
         <article className="acerca_iconos">
-          <img src="./assets/nube.svg" className="acerca_icono" alt="nube" />
+          <img src="./assets/nube.src" className="acerca_icono" alt="nube" />
           <h3 className="acerca_titulo">Infraestructura en la nube</h3>
           <p className="acerca_parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse similique dolores nostrum dolore aut commodi corrupti dignissimos reiciendis, totam rerum quis, facere minus explicabo praesentium nam velit saepe. Iusto, asperiores.</p>
         </article> 

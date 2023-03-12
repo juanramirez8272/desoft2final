@@ -8,6 +8,7 @@ import AboutUs from './Componentes/Acerca/acerca';
 import Contact from './Componentes/Contacto/Contacto';
 import Header from './Componentes/Hero/hero';
 
+
 function App() {
   return (
     <div className="page-container">
@@ -15,7 +16,7 @@ function App() {
       <AboutUs />
       <Products />
       <Contact />
-      <Social />
+   
       <Noticias />
       <Footer />
     </div>
